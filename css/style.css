@@ -2,6 +2,7 @@
 
 body, html {
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
 }
 
 h1, p {
@@ -16,16 +17,18 @@ table {
 }
 
 tr {
-    height: 50px;
+    height: 80px;
 }
 
 td {
     border-left: 3px solid rgb(20, 64, 209);
     padding-left: 10px;
+    transition: 0.3s;
 }
 
 td:hover {
     border-left: 3px solid rgb(23, 212, 48);
+    padding-left: 40px;
 }
 
 span {
